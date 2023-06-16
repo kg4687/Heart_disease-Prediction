@@ -17,18 +17,18 @@ def heart_disease_prediction(input_data):
 def main():
     st.title("Heart Disease Prediction")
     Age = st.text_input('Age')
-    Sex = st.text_input('Sex (1->Male, 0->Female)')
-    Cp = st.text_input('Chest Pain Type(0,1,2,3)')
-    trestbps = st.text_input('Resting Blood Pressure (in mm Hg on admission to the hospital)')
+    Sex =  st.text_input('Sex (1->Male, 0->Female)')
+    Cp =  st.text_input('Chest Pain Type(0,1,2,3)')
+    trestbps =  st.text_input('Resting Blood Pressure (in mm Hg on admission to the Hospital)')
     chol = st.text_input('Serum Cholestral in mg/dl')
     fbs = st.text_input('Fasting Blood Sugar (1->True, 0->False)')
     restecg = st.text_input('Resting Electrocardiographic Results')
     thalach = st.text_input('Maximum Heart Rate achieved')
     exang = st.text_input('Exercise Induced Angina (1 = yes; 0 = no)')
-    oldpeak = st.text_input('ST depression induced by exercise relative to rest')
-    slope = st.text_input('The Slope of the peak exercise ST segment')
-    ca = st.text_input('Number of major vessels (0-3) colored by flourosopy')
-    thal = st.text_input('1 = Normal; 2 = Fixed defect; 3 = Reversable defect')
+    oldpeak =  st.text_input('ST depression induced by exercise relative to rest')
+    slope =  st.text_input('The Slope of the peak exercise ST segment')
+    ca =  st.text_input('Number of major vessels (0-3) colored by Flourosopy')
+    thal =  st.text_input('1 = Normal; 2 = Fixed defect; 3 = Reversable defect')
     
     #available for prediction
     diagnosis = ''
